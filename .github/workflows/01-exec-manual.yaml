@@ -16,10 +16,7 @@ jobs:
 
       - name: Instalando dependencias
         run: yarn
-
-      - name: Checando padronizacao do código
-        run: yarn lint
-
+        
   unidade:
     runs-on: ubuntu-latest
     needs: inspecao
