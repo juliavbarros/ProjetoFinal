@@ -1,0 +1,24 @@
+{
+  "name": "pgats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --experimental-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliavbarros/PGATs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliavbarros/PGATs/issues"
+  },
+  "homepage": "https://github.com/juliavbarros/PGATs#readme",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.7.1"
+  }
+}
