@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@V4
+      - uses: actions/checkout@v4
 
       - name: Instalando Yarn
         run: npm install -g yarn
@@ -22,10 +22,10 @@ jobs:
 
   unidade:
     runs-on: ubuntu-latest
-    needs: [inspecao]
+    needs: inspecao
 
     steps:
-      - uses: actions/checkout@V4
+      - uses: actions/checkout@v4
 
       - name: Instalando Yarn
         run: npm install -g yarn
